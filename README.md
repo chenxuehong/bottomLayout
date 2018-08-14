@@ -1,22 +1,3 @@
-# 依赖添加 
-To get a Git project into your build:
-
-Step 1. Add the JitPack repository to your build file
-Add it in your root build.gradle at the end of repositories:
-
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-
-Step 2. Add the dependency
-
-	dependencies {
-	        implementation 'com.github.lytx1121:bottomLayout:v1.0'
-	}
-  
 # bottomLayout使用实例
 # MainActivity.xml布局
   <?xml version="1.0" encoding="utf-8"?>
