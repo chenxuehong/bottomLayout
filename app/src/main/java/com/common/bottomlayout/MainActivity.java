@@ -37,4 +37,12 @@ public class MainActivity extends AppCompatActivity {
                 .setUnreadMsgCountAtIndex(1, 2)
                 .build();
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (bottomBarLayout != null) {
+            bottomBarLayout.clearCache();
+        }
+    }
 }
